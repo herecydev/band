@@ -1,41 +1,27 @@
-import type { MetaFunction } from "@vercel/remix";
+import { About } from "~/components/About";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
+export const config = { runtime: "edge" };
 
-export default function Index() {
-  return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+export default () => (
+  <>
+    <div className="h-screen bg-cover bg-[url('~/images/hero.jpg')]">
+      <div className="flex h-screen">
+        <section className="text-yellow-300 [text-shadow:_2px_2px_3px_black] m-auto">
+          <h1 className="text-3xl md:text-6xl text-center uppercase tracking-widest font-semibold">
+            Kirky and The Sunflowers
+          </h1>
+          <nav className="mt-7 text-2xl">
+            <ul className="flex justify-around">
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>Videos</li>
+              <li>Music</li>
+            </ul>
+          </nav>
+        </section>
+      </div>
     </div>
-  );
-}
+    <About />
+  </>
+);
