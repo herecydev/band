@@ -1,4 +1,5 @@
 import { About } from "~/components/About";
+import { Link } from "~/components/Link";
 
 export const config = { runtime: "edge" };
 
@@ -13,7 +14,7 @@ export default () => (
           <nav className="mt-7 text-2xl">
             <ul className="flex justify-around">
               <li>
-                <a href="#about">About</a>
+                <Link to="#about">About</Link>
               </li>
               <li>Videos</li>
               <li>Music</li>
