@@ -1,4 +1,5 @@
 import { About } from "~/components/About";
+import { Media } from "~/components/Media";
 import { Link } from "~/components/Link";
 
 export const config = { runtime: "edge" };
@@ -16,13 +17,16 @@ export default () => (
               <li>
                 <Link to="#about">About</Link>
               </li>
-              <li>Videos</li>
-              <li>Music</li>
+              <li>
+                <Link to="#media">Photos & Videos</Link>
+              </li>
+              <li>Contact</li>
             </ul>
           </nav>
         </section>
       </div>
     </div>
     <About />
+    <Media />
   </>
 );
