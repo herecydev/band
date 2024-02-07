@@ -68,7 +68,7 @@ const BandMember = ({
       src={src}
       className="rounded-full object-cover object-top w-60 h-60 hover:scale-105"
     />
-    <h1 className="text-lg mt-4">{name}</h1>
+    <h1 className="text-lg mt-6">{name}</h1>
     <p>{description}</p>
   </div>
 );
