@@ -10,7 +10,7 @@ export const Media = () => (
       title="Kirky and The Sunflowers - Waiting"
       allowFullScreen
     ></iframe>
-    <div className="flex gap-10 mt-8 mx-auto max-w-fit">
+    <div className="flex gap-10 mt-8 md:mt-16 mx-auto max-w-fit">
       <a href="https://open.spotify.com/artist/3Tonvz09FQgxejiFMrMnbL?si=9iMY3VM-Rj6KBzrO-jcl1w">
         <Spotify />
       </a>
