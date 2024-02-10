@@ -8,14 +8,14 @@ import vocals from "~/images/vocals.jpg";
 
 export const About = () => (
   <>
-    <section id="about" className="my-20 md:my-20 mx-12">
+    <section id="about" className="my-14 md:my-20 mx-12">
       <div className="mx-auto max-w-2xl flex gap-1">
         <div className="self-start">
           <QuoteLeft />
         </div>
         <p className="text-lg text-center">
           Born of frustration, Kirky and The Sunflowers are a band of equals
-          bringing a mix of rock/pop/indie/funk. Creating original Indie-Rock
+          bringing a mix of rock/pop/indie/britpop. Creating original Indie-Rock
           that offers the listener a mix of emotional ballads to protest songs
           and everything between!
         </p>
@@ -28,27 +28,32 @@ export const About = () => (
       <BandMember
         src={lead}
         name="“Kirky” - Jeff Kirkham"
-        description="Vocals and guitar"
+        role="Vocals and guitar"
+        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
       />
       <BandMember
         src={bass}
         name="“Big man” - Ant Nash"
-        description="Bass Guitar and BBQ"
+        role="Bass Guitar and BBQ"
+        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
       />
       <BandMember
         src={guitar}
         name="“Dutch” - Dave Ansdell"
-        description="Lead Guitar and backing vocals"
+        role="Lead Guitar and backing vocals"
+        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
       />
       <BandMember
         src={drummer}
         name="“Sticks”- Graham Curtis"
-        description="Drumkit"
+        role="Drumkit"
+        influence="Grew up listening to Led Zeppelin, Little Feat and Steely Dan so John Bonham, Richie Hayward and Steve Gadd a big influence. Now mostly listen to new music, particularly phycadelica, dream pop and modern jazz. Plays Gretsch Broadkaster Kit, Ludwig Supraphonic snare and a, mix Sabian AAX /HHX, Zildjian K Cymbals."
       />
       <BandMember
         src={vocals}
         name="“Miss Amy” - Amy Kirkham"
-        description="Backing vocals and percussion"
+        role="Backing vocals and percussion"
+        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
       />
     </section>
   </>
@@ -57,15 +62,18 @@ export const About = () => (
 const BandMember = ({
   src,
   name,
-  description,
+  role,
+  influence,
 }: {
   src: string;
   name: string;
-  description: string;
+  role: string;
+  influence?: string;
 }) => (
-  <div className="flex flex-col items-center">
+  <div className="flex flex-col items-center max-w-2xl px-6">
     <img src={src} className="rounded-full object-cover object-top w-60 h-60" />
-    <h1 className="text-lg mt-6">{name}</h1>
-    <p>{description}</p>
+    <h1 className="text-lg mt-4">{name}</h1>
+    <p className="font-light">{role}</p>
+    <p className="mt-4 text-center">{influence}</p>
   </div>
 );
