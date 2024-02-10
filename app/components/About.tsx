@@ -8,7 +8,7 @@ import vocals from "~/images/vocals.jpg";
 
 export const About = () => (
   <>
-    <section id="about" className="my-14 md:my-20 mx-8">
+    <section id="about" className="my-20 md:my-20 mx-12">
       <div className="mx-auto max-w-2xl flex gap-1">
         <div className="self-start">
           <QuoteLeft />
@@ -64,10 +64,7 @@ const BandMember = ({
   description: string;
 }) => (
   <div className="flex flex-col items-center">
-    <img
-      src={src}
-      className="rounded-full object-cover object-top w-60 h-60 hover:scale-105"
-    />
+    <img src={src} className="rounded-full object-cover object-top w-60 h-60" />
     <h1 className="text-lg mt-6">{name}</h1>
     <p>{description}</p>
   </div>
