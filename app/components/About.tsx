@@ -35,7 +35,7 @@ export const About = () => (
         src={bass}
         name="“Big man” - Ant Nash"
         role="Bass Guitar and BBQ"
-        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
+        influence="I love all kinds of music - too many genres to list. Early bass playing influences include Cliff Burton, Flea, Jon Entwistle, John Paul Jones, Jaco Pastorius and Marcus Miller. Whenever I listen to good musicians play any genre it gives me ideas and inspiration. I play a Fender Jazz American Deluxe strung with DR Black Beauties."
       />
       <BandMember
         src={guitar}
