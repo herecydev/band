@@ -41,7 +41,7 @@ export const About = () => (
         src={guitar}
         name="“Dutch” - Dave Ansdell"
         role="Lead Guitar and backing vocals"
-        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
+        influence="As a youngster I was surrounded by the timeless hits of queen and iconic playing style of Brian May. From this, a fascination was born. As a child I would at the back of the the Argos catalogue hoping to get a guitar, but it was much later that I started to play. A cheap guitar from an old school teacher was enough to get me playing.. learning to play completely by ear through the iconic sounds of Oasis. I have been in various bands over the years. I listen to anything from 'War on Drugs' to 'Lana Del Ray' I play a Les Paul, ES-355 and vox AC15 and 'some might say' success is defined by pedals."
       />
       <BandMember
         src={drummer}
@@ -53,7 +53,7 @@ export const About = () => (
         src={vocals}
         name="“Miss Amy” - Amy Kirkham"
         role="Backing vocals and percussion"
-        influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
+        influence="I've always described myself as a creative person, growing up I was musically influenced by my Dad and Grandad. I often enjoyed singing along to Celine Dion in my bedroom (when no one else was around) but never had the confidence to sing beyond this! I've had a go at playing a few instruments and have been part of a choir. Growing in confidence, I joined the band as a backing vocalist adding harmonies, shaking the tambourine and adding a few dance moves."
       />
     </section>
   </>
