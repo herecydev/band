@@ -50,6 +50,6 @@ export default () => (
     <About />
     <Music />
     <Media />
-    <footer>Copyright blah blah</footer>
+    <footer>©2024 Kirky and the Sunflowers</footer>
   </>
 );
