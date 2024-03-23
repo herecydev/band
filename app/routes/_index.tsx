@@ -19,8 +19,8 @@ export default () => (
             </p>
             <p>Sunflowers</p>
           </h1>
-          <nav className="mt-6 md:mt-8 text-3xl md:text-4xl lg:text-5xl font-bold">
-            <ul className="flex gap-8 justify-evenly">
+          <nav className="mt-6 md:mt-8 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+            <ul className="flex gap-3 sm:gap-8 justify-evenly">
               <li>
                 <Link to="#about">Bio</Link>
               </li>
