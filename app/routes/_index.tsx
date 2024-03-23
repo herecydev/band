@@ -10,34 +10,35 @@ export default () => (
     <div className="h-screen bg-cover bg-[url('~/images/hero-flowers.jpg')]">
       <div className="flex h-screen">
         <section className="text-yellow-300 [text-shadow:_2px_2px_3px_black] mx-auto mt-[8vh]">
-          {/* <h1 className="text-6xl md:text-7xl lg:text-9xl text-center text-balance font-extrabold max-w-[80vw]">
-            Kirky{" "}
-            <span className="text-3xl md:text-4xl lg:text-7xl tracking-normal">
-              and the
-            </span>{" "}
-            Sunflowers
-          </h1> */}
-          <h1 className="text-[7vw] text-center font-bold">
-            Kirky and the Sunflowers
+          <h1 className="text-5xl md:text-8xl lg:text-9xl text-balance font-extrabold max-w-[80vw]">
+            <p>
+              Kirky{" "}
+              <span className="text-3xl md:text-4xl lg:text-7xl tracking-normal">
+                and the
+              </span>{" "}
+            </p>
+            <p>Sunflowers</p>
           </h1>
-          <nav className="mt-5 text-[4vw] font-bold">
-            <ul className="flex gap-2 justify-evenly">
+          <nav className="mt-6 md:mt-8 text-3xl md:text-4xl lg:text-5xl font-bold">
+            <ul className="flex gap-8 justify-evenly">
               <li>
                 <Link to="#about">Bio</Link>
               </li>
-              <li>•</li>
               <li>
-                <Link to="#music">Music</Link>
+                <Link to="https://www.youtube.com/@kirkyandthesunflowers8266/featured">
+                  Video
+                </Link>
               </li>
-              <li>•</li>
               <li>
-                <Link to="#about">Photos</Link>
+                <Link to="https://open.spotify.com/artist/3Tonvz09FQgxejiFMrMnbL?si=9iMY3VM-Rj6KBzrO-jcl1w">
+                  Music
+                </Link>
               </li>
-              <li>•</li>
               <li>
-                <Link to="#media">Video</Link>
+                <Link to="https://www.instagram.com/kirky.and.the.sunflowers/">
+                  Photos
+                </Link>
               </li>
-              <li>•</li>
               <li>
                 <Link to="#media">Contact</Link>
               </li>
@@ -49,5 +50,6 @@ export default () => (
     <About />
     <Music />
     <Media />
+    <footer>Copyright blah blah</footer>
   </>
 );
