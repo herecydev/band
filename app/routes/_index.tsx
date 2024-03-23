@@ -50,6 +50,9 @@ export default () => (
     <About />
     <Music />
     <Media />
-    <footer>©2024 Kirky and the Sunflowers</footer>
+    <footer className="flex justify-between m-6">
+      <div>©2024 Kirky and the Sunflowers</div>
+      <div>kirkyandthesunflowers@gmail.com</div>
+    </footer>
   </>
 );

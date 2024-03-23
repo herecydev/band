@@ -61,7 +61,7 @@ export const About = () => (
         <BandMember
           src={vocals}
           name="“Miss Amy” - Amy Kirkham"
-          role="Backing vocals & Percussion"
+          role="Backing Vocals & Percussion"
           influence="I've always described myself as a creative person, growing up I was musically influenced by my Dad and Grandad. I often enjoyed singing along to Celine Dion in my bedroom (when no one else was around) but never had the confidence to sing beyond this! I've had a go at playing a few instruments and have been part of a choir. Growing in confidence, I joined the band as a backing vocalist adding harmonies, shaking the tambourine and adding a few dance moves."
         />
       </div>
