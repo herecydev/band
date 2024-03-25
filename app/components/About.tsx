@@ -50,19 +50,19 @@ export const About = () => (
           src={drummer}
           name="“Sticks”- Graham Curtis"
           role="Drumkit & Comedy"
-          influence="Grew up listening to Led Zeppelin, Little Feat and Steely Dan so John Bonham, Richie Hayward and Steve Gadd a big influence. Now mostly listen to new music, particularly phycadelica, dream pop and modern jazz. Plays Gretsch Broadkaster Kit, Ludwig Supraphonic snare and a, mix Sabian AAX /HHX, Zildjian K Cymbals."
+          influence="Grew up listening to Led Zeppelin, Little Feat and Steely Dan so John Bonham, Richie Hayward and Steve Gadd a big influence. Now mostly listen to new music, particularly phycadelica, dream pop and modern jazz. Plays Gretsch Broadkaster Kit, Ludwig Supraphonic snare and a mix of Sabian AAX/HHX, Zildjian K Cymbals."
         />
         <BandMember
           src={guitar}
           name="“Dutch” - Dave Ansdell"
           role="Lead Guitar & Backing Vocals"
-          influence="As a youngster I was surrounded by the timeless hits of queen and iconic playing style of Brian May. From this, a fascination was born. A cheap guitar from an old school teacher was enough to get me interested and learning to play completely by ear through the iconic sounds of Oasis. I have been in various bands over the years. I listen to anything from 'War on Drugs' to 'Lana Del Ray' I play a Les Paul, ES-355 and vox AC15 and 'some might say' success is defined by pedals."
+          influence="As a youngster I was surrounded by the timeless hits of Queen and iconic playing style of Brian May. From this, a fascination was born. A cheap Guitar from an old school teacher was enough to get me interested and learning to play completely by ear through the iconic sounds of Oasis. I have been in various bands over the years. I listen to anything from 'War on Drugs' to 'Lana Del Ray' I play a Les Paul, ES-355 and vox AC15 and 'some might say' success is defined by pedals."
         />
         <BandMember
           src={vocals}
           name="“Miss Amy” - Amy Kirkham"
           role="Backing Vocals & Percussion"
-          influence="I've always described myself as a creative person, growing up I was musically influenced by my Dad and Grandad. I often enjoyed singing along to Celine Dion in my bedroom (when no one else was around) but never had the confidence to sing beyond this! I've had a go at playing a few instruments and have been part of a choir. Growing in confidence, I joined the band as a Backing Vocalist adding harmonies, shaking the tambourine and adding a few dance moves."
+          influence="I've always described myself as a creative person, growing up I was musically influenced by my Dad and Grandad. I often enjoyed singing along to Celine Dion in my bedroom (when no one else was around) but never had the confidence to sing beyond this! I've had a go at playing a few instruments and have been part of a choir. Growing in confidence, I joined the band as a Backing Vocalist adding harmonies, shaking the Tambourine and adding a few dance moves."
         />
       </div>
     </section>
