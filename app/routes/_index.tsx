@@ -41,7 +41,7 @@ export default () => (
                 </Link>
               </li>
               <li>
-                <Link to="#media">Contact</Link>
+                <Link to="mailto:kirkyandthesunflowers@gmail.com">Contact</Link>
               </li>
             </ul>
           </nav>

@@ -8,7 +8,7 @@ import vocals from "~/images/vocals.jpg";
 
 export const About = () => (
   <>
-    <section id="video" className="my-24">
+    <section id="video" className="my-16">
       <iframe
         className="aspect-video w-5/6 md:w-3/4 max-w-2xl mx-auto"
         src="https://www.youtube-nocookie.com/embed/CEEdH4ethIE?si=vjyEsNdqRm3XjHrQ?autoplay=0&showinfo=0&controls=0"
@@ -38,7 +38,7 @@ export const About = () => (
           src={lead}
           name="“Kirky” - Jeff Kirkham"
           role="Vocals & Guitar"
-          influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play Fender, Telecaster and Vox AC 15 amp."
+          influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play Fender Telecaster and Vox AC 15 amp."
         />
         <BandMember
           src={bass}
@@ -56,7 +56,7 @@ export const About = () => (
           src={guitar}
           name="“Dutch” - Dave Ansdell"
           role="Lead Guitar & Backing Vocals"
-          influence="As a youngster I was surrounded by the timeless hits of Queen and iconic playing style of Brian May. From this, a fascination was born. A cheap Guitar from an old school teacher was enough to get me interested and learning to play completely by ear through the iconic sounds of Oasis. I have been in various bands over the years. I listen to anything from 'War on Drugs' to 'Lana Del Ray' I play a Les Paul, ES-355 and vox AC15 and 'some might say' success is defined by pedals."
+          influence="As a youngster I was surrounded by the timeless hits of Queen and iconic playing style of Brian May. From this, a fascination was born. A cheap Guitar from an old school teacher was enough to get me interested and learning to play completely by ear through the iconic sounds of Oasis. I have been in various bands over the years. I listen to anything from 'War on Drugs' to 'Lana Del Ray' I play a Les Paul, ES-355 and Vox AC15 and 'some might say' success is defined by pedals."
         />
         <BandMember
           src={vocals}
@@ -87,6 +87,6 @@ const BandMember = ({
     />
     <h1 className="text-lg mt-4">{name}</h1>
     <p className="font-light">{role}</p>
-    <p className="mt-4 text-center">{influence}</p>
+    <p className="mt-4 text-center text-balance">{influence}</p>
   </div>
 );
