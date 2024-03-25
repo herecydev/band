@@ -2,6 +2,7 @@ import { About } from "~/components/About";
 import { Media } from "~/components/Media";
 import { Link } from "~/components/Link";
 import { Music } from "~/components/Music";
+import { Footer } from "~/components/Footer";
 
 export const config = { runtime: "edge" };
 
@@ -50,9 +51,6 @@ export default () => (
     <About />
     <Music />
     <Media />
-    <footer className="flex justify-between m-6">
-      <div>©2024 Kirky and the Sunflowers</div>
-      <div>kirkyandthesunflowers@gmail.com</div>
-    </footer>
+    <Footer />
   </>
 );

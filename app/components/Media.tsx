@@ -1,3 +1,4 @@
+import Facebook from "~/icons/facebook";
 import Instagram from "~/icons/instagram";
 import Spotify from "~/icons/spotify";
 import Youtube from "~/icons/youtube";
@@ -13,6 +14,9 @@ export const Media = () => (
       </a>
       <a href="https://www.youtube.com/@kirkyandthesunflowers8266/featured">
         <Youtube />
+      </a>
+      <a href="https://www.facebook.com/groups/1511929872597105/">
+        <Facebook />
       </a>
     </div>
   </section>
