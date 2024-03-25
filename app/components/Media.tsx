@@ -5,7 +5,7 @@ import Youtube from "~/icons/youtube";
 
 export const Media = () => (
   <section id="media" className="my-20">
-    <div className="flex gap-14 mt-16 mx-auto max-w-fit">
+    <div className="flex gap-12 mt-16 mx-auto max-w-fit">
       <a href="https://open.spotify.com/artist/3Tonvz09FQgxejiFMrMnbL?si=9iMY3VM-Rj6KBzrO-jcl1w">
         <Spotify />
       </a>

@@ -38,7 +38,7 @@ export const About = () => (
           src={lead}
           name="“Kirky” - Jeff Kirkham"
           role="Vocals & Guitar"
-          influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play fender, telecaster and vox AC 15 amp."
+          influence="There was always radio playing in our house. I grew up with the Beatles! My first instrument was trumpet, playing everything from classical to big band and jazz for five years. Moved over to Guitar much later in life. Influences range from southern rock (Black Crowes and Gov't Mule) to brit rock (Paul Weller). Mostly play Fender, Telecaster and Vox AC 15 amp."
         />
         <BandMember
           src={bass}
@@ -62,7 +62,7 @@ export const About = () => (
           src={vocals}
           name="“Miss Amy” - Amy Kirkham"
           role="Backing Vocals & Percussion"
-          influence="I've always described myself as a creative person, growing up I was musically influenced by my Dad and Grandad. I often enjoyed singing along to Celine Dion in my bedroom (when no one else was around) but never had the confidence to sing beyond this! I've had a go at playing a few instruments and have been part of a choir. Growing in confidence, I joined the band as a backing vocalist adding harmonies, shaking the tambourine and adding a few dance moves."
+          influence="I've always described myself as a creative person, growing up I was musically influenced by my Dad and Grandad. I often enjoyed singing along to Celine Dion in my bedroom (when no one else was around) but never had the confidence to sing beyond this! I've had a go at playing a few instruments and have been part of a choir. Growing in confidence, I joined the band as a Backing Vocalist adding harmonies, shaking the tambourine and adding a few dance moves."
         />
       </div>
     </section>
